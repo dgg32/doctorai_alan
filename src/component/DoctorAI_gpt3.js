@@ -158,7 +158,11 @@ MATCH (d:Disease)-[:localizes]->(a:Anatomy) WHERE a.name =~ '(?i)frontal sinus' 
             //textToSpeak = singleRecord.get(0)
             textToSpeak = textToSpeak.slice(0, -2).trim()
             console.log("before translation " + "Translate this into " + lang_p['target_language'] + "\n\n" + textToSpeak)
-            textToSpeak = await callTranslate("Translate this into " + lang_p['target_language'] + "\n\n" + textToSpeak);
+            if (lang_p['target_language'] !== "English")
+            {
+              textToSpeak = await callTranslate("Translate this into " + lang_p['target_language'] + "\n\n" + textToSpeak);
+            }
+            
             textToSpeak = textToSpeak.trim()
             console.log("after translation " + textToSpeak)
 
