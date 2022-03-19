@@ -1,10 +1,12 @@
 # Welcome to Doctor.ai React Front-end 
 
-This is the React front-end app for multilingual Doctor.ai [Can Doctor.ai understand German, Chinese and Japanese? GPT-3 Answers: Ja, 一点点 and できます!](https://dgg32.medium.com/can-doctor-ai-understand-german-chinese-and-japanese-gpt-3-answers-ja-%E5%8F%AF%E4%BB%A5-and-%E3%81%84%E3%81%84%E3%82%88-b63b10d67bf4).
+This is the React front-end app for Doctor.ai with Alan [Integrate Alan Speech-to-Text to Doctor.ai](https://dgg32.medium.com/can-doctor-ai-understand-german-chinese-and-japanese-gpt-3-answers-ja-%E5%8F%AF%E4%BB%A5-and-%E3%81%84%E3%81%84%E3%82%88-b63b10d67bf4).
 
 
 
 ## To try this on your computer
+
+### `npm install`
 
 ### `npm start`
 
@@ -18,7 +20,7 @@ Please refer to our article in Medium.
 
 ## Authors
 *  **Sixing Huang**
-*  **Maruthi Prithivirajan**
+*  **Liang Li**
 
 ## Supported by
 
@@ -26,3 +28,4 @@ Please refer to our article in Medium.
 *  **Emil Pastor**
 *  **Irwan Butar Butar**
 *  **Shiny Zhu**
+*  **Maruthi Prithivirajan**
