@@ -20,7 +20,7 @@ const target_language = process.env.REACT_APP_LANGUAGE
 
 //const target_language = "Chinese"
 //const target_language = "English"
-//const driver = neo4j.driver("bolt://localhost:7687", neo4j.auth.basic("neo4j", "3344264"))
+
 
 //const target_language = "Japanese"
 const lang_p = language_parameters(target_language)
